@@ -8,14 +8,26 @@
 </head>
 <body>
     <main>
-        <form action="">
+        <form>
             <fieldset class="container">
                 <h1>CREA TU CUENTA</h1>
                 <h2>Este es el paso 1</h2>
                 <div >
-                    <input type="text" placeholder="   Correo">
-                    <input type="password" placeholder="   Contraseña">
-                    <input type="password" placeholder="   Confirmar Contraseña">
+                    <input type="email"
+                    id="correo"
+                    placeholder="   Correo"
+                    required
+                    minlength="1"
+                    maxlength="40">
+                    <input type="password" required
+                    minlength="6"
+                    maxlength="12"
+                    placeholder="   Contraseña">
+                    <input type="password"
+                    required
+                    minlength="6"
+                    maxlength="12"
+                    placeholder="   Confirmar Contraseña">
                 </div>
                 <button class="btn siguiente">Siguiente</button>
         </fieldset>

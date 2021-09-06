@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto02-Semana02</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+    <form>
+        <fieldset >
+            <div  class="container">
+                <h1>Inscribirse</h1>
+                <label for="">Nombres</label>
+                <input class="input"
+                type="text"
+                required
+                minlength="6"
+                maxlength="40">
+                <label for="">Edad</label>
+                <input class="input"
+                type="number"
+                required
+                min="18"
+                max="120">
+                <label for="">Ingresos</label>
+                <input class="input"
+                type="number"
+                min="1000"
+                max="20000"
+                step="100"
+                required >
+                <label for="">Más información</label>
+                <textarea cols="30"
+                rows="10"
+                minlength="6"
+                required>
+                </textarea>
+            </div>
+            <div class="sextype">
+                <label class="sexo" for="">Género</label>
+                    <input name="sexo"
+                    type="radio"
+                    required
+                    >Mujer
+                    <input name="sexo"
+                    type="radio"
+                    required
+                    >Hombre
+                    <input name="sexo"
+                    type="radio"
+                    required
+                    >Trans
+            </div>
+            <div class="planes">
+                <label class="plan" for="">Plan</label>
+                <select class="select" name="" id="" required>
+                        <option selected disabled>Selecciona tu Plan</option>
+                        <option value="PBRONCE">Plan Bronce</option>
+                        <option value="PPLATA">Plan Plata</option>
+                        <option value="PORO">Plan Oro</option>
+                        <option value="PPLATINUM">Plan Platinum</option>
+                        <option value="PBLACK">Plan Black</option>
+                </select>
+            </div>
+                <div  class="suscribete">
+                    <input name="boletin" type="checkbox">  Suscríbete al Boletín Informativo
+                </div>
+                <button class="btn actualizar">Actualizar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
