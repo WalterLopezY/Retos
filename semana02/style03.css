@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 0 30px 30px 30px;
+    background-color: rgb(227, 242, 253);
+    border: none;
+}
+form {
+    padding-left: 33.33%;
+}
+input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 20px;
+    font-size: 12px;
+}
+
+    
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+textarea {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 13%;
+}
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #3c86e7;
+    border-radius: 0.6em;
+    color: #3c86e7;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 10px;
+    margin-bottom: -10px;
+    padding: 0.7em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  .enviar {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .enviar:hover {
+    box-shadow: 0 0 40px 40px #3c86e7 inset;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto03-Semana02</title>
+    <link rel="stylesheet" href="style03.css">
+</head>
+<body>
+    <form action="">
+        <fieldset class="container">
+
+            <h1>Formulario de Contacto</h1>
+            
+            <label for="">Nombres</label>
+            <input type="text" placeholder="Walter" required minlength="6" pattern="[A-Za-z]{6,}">
+
+            <label for="">Apellidos</label>
+            <input type="text" placeholder="Lopez" required minlength="6" pattern="[A-Za-z]{6,}">
+
+            <label for="">Correo</label>
+            <input type="email" placeholder="walterj.lopezy@gmail.com" required>
+
+            <label for="">Mensaje</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa tu mensaje aquí ... " required minlength="20" maxlength="140" pattern="[A-Za-z]{6,140}"></textarea>
+            <button class="btn enviar">Enviar</button>
+         </fieldset>   
+    </form>
+</body>
+</html>
